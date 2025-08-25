@@ -18,7 +18,7 @@ public class TodoService {
     }
 
     public TodoEntity salvar(TodoEntity todoNovo) {
-        validator.validar(todoNovo);
+        validator.vali  dar(todoNovo);
         return repository.save(todoNovo);
     }
 
